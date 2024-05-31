@@ -1,0 +1,69 @@
+
+.book{
+    
+    border-radius: 8px;
+    background-color: #FF6363;
+    transition: 0.5s;
+}
+.book:hover{
+    border-radius: 28px;
+    
+}
+span{
+    color: #FF6363;
+}
+.btn{
+    background: #FF6363;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    color:#FF6363 ;
+    font-size: 3em;
+}
+.why ul{
+    list-style: none;
+}
+.why ul li{
+    border:1px solid rgba(255, 255, 255, 0.5) ;
+    border-radius: 12px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.why ul li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px black;
+
+}
+.why ul li i{
+    font-size: 28px; 
+    margin: 0 10px;
+
+}
+.accordion-button{
+    transition: .5s;
+}
+.accordion-button:hover{
+    background-color: #FF6363;
+    
+}
+.footer-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-ul li i{
+    font-size: 2em;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.footer-ul li i:hover{
+    color: darkgray;
+}
+.footer-ul li:hover{
+    color: darkgrey;
+}
